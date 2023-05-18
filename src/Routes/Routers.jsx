@@ -7,7 +7,7 @@ import Technology from '../Pages/Technology'
 import Fitness from '../Pages/Fitness'
 import Science from '../Pages/Science'
 
-// import Common from '../Pages/Demo/Index'
+
 import CommonFunction from '../Utility/CommonFunction'
 
 
