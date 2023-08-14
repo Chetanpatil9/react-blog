@@ -41,7 +41,7 @@ const Food = () => {
           ))
           }
 
-<div className='advertisement'>AdverTisement</div>
+<div className='advertisement'>Advertisement</div>
 </div>
       
 </div>

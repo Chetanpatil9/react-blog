@@ -9,7 +9,7 @@ const Technology = () => {
   console.log(data)
   return (
     <>
-    <h1 className='tech-heading'>Technology</h1>
+    <h1 className='tech-heading'>Science</h1>
     <div className='underline'></div>
     <div className='tech-display'>
 <div className='tech-dis-1'>
@@ -41,7 +41,7 @@ const Technology = () => {
               />
           ))
           }
-<div className='advertisement'>AdverTisement</div>
+<div className='advertisement'>Advertisement</div>
 </div>
       
 </div>

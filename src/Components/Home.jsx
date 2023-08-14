@@ -16,15 +16,15 @@ const Home = () => {
 
         <div className='home-image'>
           <div className='home-dis-1'>
-            <ImageCard src='https://images.unsplash.com/photo-1474432978580-3d2a63f706e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFya25lc3N8ZW58MHx8MHx8&w=1000&q=80' />
+            <ImageCard src='https://cdn.zeebiz.com/sites/default/files/2023/08/11/255865-new-parliament-reuters.jpg?im=FitAndFill=(1200,900)' />
           </div>
           <div className='home-dis-2'>
             <div className='in-div-dis'>
-              <ImageCard src='https://th.bing.com/th/id/R.4ce8a894b4382b49f26cc16a62cd9545?rik=RTd6oQQPjHWRcw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fct871tX.jpg&ehk=9ut5DudbIVxhGCORhypUJgkeYq7nH89xKUCWOWixn%2bU%3d&risl=&pid=ImgRaw&r=0' />
+              <ImageCard src='https://images.unsplash.com/photo-1679008980275-1f7168d0bbcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80' />
 
             </div>
             <div className='in-div-dis'>
-              <ImageCard src='https://www.nsbpictures.com/wp-content/uploads/2021/12/Dark-Cyber-scaled.jpg' />
+              <ImageCard src='https://indiatechnologynews.in/wp-content/uploads/2023/06/energy-saving-sustainability-800x400.jpg' />
 
             </div>
           </div>
@@ -33,22 +33,7 @@ const Home = () => {
         <h1 style={{ marginTop: "40px" }}>The Latest</h1>
         <hr style={{ width: "200px", thickness: "20px" }} />
         <div className='home__main'>
-        <div className='div_width'>
-          {data
-            .filter((article) => {
-              return article.category === "bollywood";
-            })
-            .map((n) => (
-              <CardHome
-                key={n.id}
-                articleid={n.id}
-                imgUrl={n.img}
-                title={n.title}
-                description={n.description.slice(0, 200)}
-                author={n.author}
-              />
-            ))}
-        </div>
+       
         <div className='div_width'>
           {data
             .filter((article) => {
@@ -68,7 +53,23 @@ const Home = () => {
         <div className='div_width'>
           {data
             .filter((article) => {
-              return article.category === "food";
+              return article.category === "war";
+            })
+            .map((n) => (
+              <CardHome
+                key={n.id}
+                articleid={n.id}
+                imgUrl={n.img}
+                title={n.title}
+                description={n.description.slice(0, 200)}
+                author={n.author}
+              />
+            ))}
+        </div>
+        <div className='div_width'>
+          {data
+            .filter((article) => {
+              return article.category === "bollywood1";
             })
             .map((n) => (
               <CardHome
@@ -82,11 +83,10 @@ const Home = () => {
             ))}
         </div>
         </div>
+
         <h1 style={{ marginTop: "40px", display: "inline-block" }}>
           Latest Articles
         </h1>
-
-        
 
         <div className="rightbar2">
           {data
@@ -111,39 +111,6 @@ const Home = () => {
         <hr />
 
 <div className='home__main'>
-<div className='div_width'>
-          {data
-            .filter((article) => {
-              return article.category === "footer1";
-            })
-            .map((n) => (
-              <CardHome
-                key={n.id}
-                articleid={n.id}
-                imgUrl={n.img}
-                title={n.title}
-                description={n.description.slice(0, 200)}
-                author={n.author}
-              />
-            ))}
-        </div>
-
-        <div className='div_width'>
-          {data
-            .filter((article) => {
-              return article.category === "footer2";
-            })
-            .map((n) => (
-              <CardHome
-                key={n.id}
-                articleid={n.id}
-                imgUrl={n.img}
-                title={n.title}
-                description={n.description.slice(0, 200)}
-                author={n.author}
-              />
-            ))}
-        </div>
 
         <div className='div_width'>
           {data
@@ -161,8 +128,26 @@ const Home = () => {
               />
             ))}
         </div>
-</div>
-        
+        <div className='div_width'>
+          {data
+            .filter((article) => {
+              return article.category === "war";
+            })
+            .map((n) => (
+              <CardHome
+                key={n.id}
+                articleid={n.id}
+                imgUrl={n.img}
+                title={n.title}
+                description={n.description.slice(0, 200)}
+                author={n.author}
+              />
+            ))}
+        </div>
+        <div className='advertisement'>Advertisement</div>
+         
+      </div>
+
       </div>
 
 

@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import './Fitness.css'
 import Card from './Card'
 import { store } from './Details'
+
 const Fitness = () => {
   const [data] = useContext(store)
   console.log(data)
@@ -33,13 +34,14 @@ const Fitness = () => {
                   key={n.id}
                   articleid={n.id}
                   imgUrl={n.img}
-                  title={n.title.slice(0,15)}
-                  description={n.description.slice(0, 150)}
+                  title={n.title.slice(0,150)}
+                  description={n.description.slice(0, 140)}
                   author={n.author}
               />
           ))
           }
-<div className='advertisement'>AdverTisement</div>
+          
+<div className='advertisement'>Advertisement</div>
 </div>
       
 </div>

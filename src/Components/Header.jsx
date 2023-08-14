@@ -36,7 +36,7 @@ const Header = () => {
             <div className='navbar'>
                 <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={homeclick}>Home</span>
                 <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={bollywoodclick}>Bollywood</span>
-                <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={technologyclick}>Technology</span>
+                <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={technologyclick}>Science</span>
                 <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={hollywoodclick}>Hollywood</span>
                 <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={fitnessclick}>Fitness</span>
                 <span className={toggle ? 'mobile-view' : 'navbar-span'} onClick={foodclick}>Food</span>

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-<div style={{backgroundColor : '#e0dada', textAlign : 'center', padding : '5px', margin : '5px 2px', fontWeight:'bold'}}>&copy; Chetan Hake 2023</div>
+<div style={{backgroundColor : '#d6f985',}}>&copy;</div>
     </>
   )
 }
