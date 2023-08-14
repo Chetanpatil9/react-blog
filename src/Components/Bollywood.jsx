@@ -3,6 +3,7 @@ import Card from './Card'
 import './Bollywood.css'
 import { store } from './Details'
 
+
 const Bollywood = () => {
   const [data] = useContext(store)
   console.log(data)

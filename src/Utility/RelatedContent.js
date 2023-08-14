@@ -1,10 +1,11 @@
-import '../CSS/page.css'
+import '../src/index.css'
 const RelatedContent = (props) =>{
     return(
         <div className="related-content">
             {/* <p className="related-content-heading">More From The Siren</p> */}
             <div className="related-content-images">
                 <img src={props.image} alt="Images" className="img"/>
+
             </div>
             <p className='title'>{props.title}</p>
             <div className='related-content-data'>
