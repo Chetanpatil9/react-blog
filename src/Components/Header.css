@@ -1,8 +1,8 @@
 .navbar-head{
     background-color: #fafafa;
     padding: 4%;
-    margin-bottom: 10px;
-    border-bottom: 3px solid rgb(128, 126, 126);
+    margin-bottom: 35px;
+    border-bottom: 0px solid rgb(128, 126, 126);
 }
 .hide-nav-btn{
     transform: rotate(90deg);
