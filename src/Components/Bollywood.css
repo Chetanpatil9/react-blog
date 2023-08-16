@@ -17,6 +17,7 @@
 }
 .bolly-heading{
     margin: 0px 3%;
+
 }
 .bolly-card-dis{
     display: flex;
@@ -44,7 +45,7 @@
     box-sizing: border-box;
     padding-top: 140px;
     width: 200px;
-    height: 300px;
+    height: 650px;
     border: 2px solid rebeccapurple;
     margin-left: 10px;
     font-weight: bolder;
